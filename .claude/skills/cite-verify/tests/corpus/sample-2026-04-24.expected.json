@@ -1,0 +1,116 @@
+[
+  {
+    "entry_key": "chetty2018a",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1093/qje/qjy007",
+    "note": "APA a/b suffix: year={2018a} in .bib; suffix stripped by parse_bibtex.py before lookup"
+  },
+  {
+    "entry_key": "chetty2018b",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1093/qje/qjy006",
+    "note": "APA a/b suffix: year={2018b} in .bib; suffix stripped by parse_bibtex.py before lookup"
+  },
+  {
+    "entry_key": "chetty2014a",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.104.9.2593",
+    "note": "APA a/b suffix: year={2014a} in .bib; suffix stripped by parse_bibtex.py before lookup"
+  },
+  {
+    "entry_key": "card1999_handbook",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1016/s1573-4463(99)03011-4",
+    "note": "book-chapter: Crossref returns exact title match via DOI lookup; VERIFIED (book_candidate advisory requires title mismatch to fire)"
+  },
+  {
+    "entry_key": "ramey2013",
+    "expected_verdict": "PARTIAL_MATCH",
+    "expected_doi": "10.1257/aer.103.3.129",
+    "expected_advisory": "token_containment",
+    "note": "substring match: cited title 'Government Spending Multipliers Slack Historical Data' is a subset of Crossref full title; F1~0.67, containment=1.0 fires advisory"
+  },
+  {
+    "entry_key": "angrist2009_mhe",
+    "expected_verdict": "PARTIAL_MATCH",
+    "expected_doi": "10.1515/9781400829828",
+    "note": "edition normalization: '2nd ed.' is stripped but subtitle 'An Empiricist's Companion' remains, keeping F1~0.67; stays PARTIAL_MATCH conditional on subtitle presence in .bib title"
+  },
+  {
+    "entry_key": "wooldridge_notfound",
+    "expected_verdict": "NOT_FOUND",
+    "expected_doi": null,
+    "note": "legitimate NOT_FOUND: Wooldridge introductory econometrics textbook is not indexed by Crossref; title search returns no hit"
+  },
+  {
+    "entry_key": "acemoglu2001",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.91.5.1369"
+  },
+  {
+    "entry_key": "angrist1991",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.3386/w3572"
+  },
+  {
+    "entry_key": "card1994",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.3386/w4509"
+  },
+  {
+    "entry_key": "imbens2009",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/jel.47.1.5"
+  },
+  {
+    "entry_key": "angrist2010",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/jep.24.2.3"
+  },
+  {
+    "entry_key": "acemoglu2020",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1086/705716"
+  },
+  {
+    "entry_key": "heckman2013",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.103.6.2052"
+  },
+  {
+    "entry_key": "chetty2014b",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.104.9.2633",
+    "note": "APA a/b suffix: year={2014b} in .bib; suffix stripped before lookup"
+  },
+  {
+    "entry_key": "chetty2016",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.20150572"
+  },
+  {
+    "entry_key": "chetty2014geography",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1093/qje/qju022"
+  },
+  {
+    "entry_key": "duflo2001",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.91.4.795"
+  },
+  {
+    "entry_key": "adh2013",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1257/aer.103.6.2121"
+  },
+  {
+    "entry_key": "deming2017",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1093/qje/qjx022"
+  },
+  {
+    "entry_key": "chetty2014denmark",
+    "expected_verdict": "VERIFIED",
+    "expected_doi": "10.1093/qje/qju013"
+  }
+]

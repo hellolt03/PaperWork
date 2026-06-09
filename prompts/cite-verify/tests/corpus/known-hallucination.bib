@@ -1,0 +1,17 @@
+% known-hallucination.bib - canary entry for cite-verify ship gate.
+% The DOI resolves to a real paper but the title is fabricated.
+% cite-verify MUST return METADATA_MISMATCH. If it returns VERIFIED or
+% PARTIAL_MATCH, the tool's core hallucination-detection is broken.
+%
+% Real paper at 10.3386/w33344:
+%   Ludwig, Jens and Mullainathan, Sendhil and Rambachan, Ashesh (2025).
+%   "Large Language Models: An Applied Econometric Framework". NBER w33344.
+
+@techreport{lmr_hallucination,
+  author      = {Ludwig, Jens and Mullainathan, Sendhil and Rambachan, Ashesh},
+  title       = {A Fabricated Title That Never Existed},
+  year        = {2025},
+  institution = {National Bureau of Economic Research},
+  number      = {w33344},
+  doi         = {10.3386/w33344}
+}

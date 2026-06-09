@@ -1,0 +1,35 @@
+[
+  {
+    "entry_key": "nas2022a",
+    "authors": [
+      "National Academies of Sciences, Engineering, and Medicine"
+    ],
+    "year": "2022",
+    "title": "Proactive Policing: Effects on Crime and Communities",
+    "doi": "10.17226/24928",
+    "venue": null,
+    "type": "article"
+  },
+  {
+    "entry_key": "nas2022b",
+    "authors": [
+      "National Academies of Sciences, Engineering, and Medicine"
+    ],
+    "year": "2022",
+    "title": "Second Study",
+    "doi": null,
+    "venue": null,
+    "type": "article"
+  },
+  {
+    "entry_key": "nas2022c",
+    "authors": [
+      "National Academies of Sciences, Engineering, and Medicine"
+    ],
+    "year": "2022",
+    "title": "Third Study",
+    "doi": null,
+    "venue": null,
+    "type": "article"
+  }
+]

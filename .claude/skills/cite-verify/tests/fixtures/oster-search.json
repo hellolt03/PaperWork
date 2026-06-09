@@ -1,0 +1,851 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 137,
+    "items": [
+      {
+        "institution": [
+          {
+            "name": "National Bureau of Economic Research",
+            "acronym": [
+              "NBER"
+            ],
+            "place": [
+              "Cambridge, MA"
+            ]
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              12
+            ]
+          ],
+          "date-time": "2025-12-12T13:24:19Z",
+          "timestamp": 1765545859269
+        },
+        "publisher-location": "Cambridge, MA",
+        "reference-count": 0,
+        "publisher": "National Bureau of Economic Research",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.3386/w19054",
+        "type": "report",
+        "created": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              22
+            ]
+          ],
+          "date-time": "2013-08-22T01:54:34Z",
+          "timestamp": 1377136474000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 126,
+        "title": [
+          "Unobservable Selection and Coefficient Stability: Theory and Validation"
+        ],
+        "prefix": "10.3386",
+        "author": [
+          {
+            "given": "Emily",
+            "family": "Oster",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "1960",
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              27
+            ]
+          ],
+          "date-time": "2020-09-27T02:35:34Z",
+          "timestamp": 1601174134000
+        },
+        "score": 63.62755,
+        "resource": {
+          "primary": {
+            "URL": "http://www.nber.org/papers/w19054.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.3386/w19054",
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2026-04-09T08:06:27Z",
+          "timestamp": 1775721987853,
+          "version": "3.50.1"
+        },
+        "reference-count": 33,
+        "publisher": "Informa UK Limited",
+        "issue": "2",
+        "content-domain": {
+          "domain": [
+            "www.tandfonline.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Journal of Business &amp; Economic Statistics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1080/07350015.2016.1227711",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2016-09-10T22:11:15Z",
+          "timestamp": 1473545475000
+        },
+        "page": "187-204",
+        "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+        "source": "Crossref",
+        "is-referenced-by-count": 4080,
+        "title": [
+          "Unobservable Selection and Coefficient Stability: Theory and Evidence"
+        ],
+        "prefix": "10.1080",
+        "volume": "37",
+        "author": [
+          {
+            "given": "Emily",
+            "family": "Oster",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Economics, Brown University, Providence, Rhode Island, and NBER ()"
+              }
+            ]
+          }
+        ],
+        "member": "301",
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              1
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "cit0001",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/jep.25.3.153"
+          },
+          {
+            "key": "cit0002",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/app.3.4.56"
+          },
+          {
+            "key": "cit0003",
+            "unstructured": "Altonji, J., Conley, T., Elder, T., and Taber, C. (2011), “Methods for Using Selection on Observed Variables to Address Selection on Unobserved Variables,” Mimeo, Yale University."
+          },
+          {
+            "key": "cit0004",
+            "unstructured": "Altonji, J. G., Elder, T. E., and Taber, C. R. (2002), “An Evaluation of Instrumental Variable Strategies for Estimating the Effects of Catholic Schools,” NBER Working Paper No. 9358."
+          },
+          {
+            "key": "cit0005",
+            "first-page": "791",
+            "volume": "40",
+            "author": "———",
+            "year": "2005",
+            "journal-title": "Journal of Human Resources"
+          },
+          {
+            "key": "cit0006",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/426036"
+          },
+          {
+            "key": "cit0007",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/aer.98.2.345"
+          },
+          {
+            "key": "cit0008",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/jep.24.2.3"
+          },
+          {
+            "key": "cit0009",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpubeco.2009.07.012"
+          },
+          {
+            "key": "cit0010",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/667941"
+          },
+          {
+            "key": "cit0011",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/01621459.1999.10473858"
+          },
+          {
+            "key": "cit0012",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1469-8749.2011.04216.x"
+          },
+          {
+            "key": "cit0013",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1471-0528.2012.03394.x"
+          },
+          {
+            "key": "cit0014",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/683668"
+          },
+          {
+            "key": "cit0015",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/01621459.1989.10478848"
+          },
+          {
+            "key": "cit0016",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1111/j.1471-0528.2006.01163.x"
+          },
+          {
+            "key": "cit0017",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/000282803321946921"
+          },
+          {
+            "key": "cit0018",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1001/archpsyc.65.5.578"
+          },
+          {
+            "key": "cit0019",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/aer.102.5.2206"
+          },
+          {
+            "key": "cit0020",
+            "first-page": "604",
+            "volume": "76",
+            "author": "LaLonde R. J.",
+            "year": "1986",
+            "journal-title": "American Economic Review"
+          },
+          {
+            "key": "cit0021",
+            "volume-title": "Specification Searches: Ad Hoc Inference With Nonexperimental Data",
+            "author": "Leamer E.",
+            "year": "1978"
+          },
+          {
+            "key": "cit0023",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/14651858.CD001055.pub3"
+          },
+          {
+            "key": "cit0024",
+            "volume-title": "Partial Identification of Probability Distributions",
+            "author": "Manski C.",
+            "year": "2003"
+          },
+          {
+            "key": "cit0025",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2202/1935-1682.2876"
+          },
+          {
+            "key": "cit0026",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-349-10688-2_8"
+          },
+          {
+            "key": "cit0027",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1257/aer.101.7.3221"
+          },
+          {
+            "key": "cit0028",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.earlhumdev.2006.05.011"
+          },
+          {
+            "key": "cit0029",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1086/599707"
+          },
+          {
+            "key": "cit0030",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511803161"
+          },
+          {
+            "key": "cit0031",
+            "unstructured": "Pischke, J.S., and Schwandt, H. (2015), “Poorly Measured Confounders are Useful on the Left But Not on the Right,” London School of Economics Working Paper."
+          },
+          {
+            "key": "cit0032",
+            "doi-asserted-by": "crossref",
+            "first-page": "212",
+            "DOI": "10.1111/j.2517-6161.1983.tb01242.x",
+            "volume": "45",
+            "author": "Rosenbaum P.",
+            "year": "1983",
+            "journal-title": "Journal of the Royal Statistical Society"
+          },
+          {
+            "key": "cit0033",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.earlhumdev.2005.12.015"
+          },
+          {
+            "key": "cit0034",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1146/annurev.economics.050708.143401"
+          }
+        ],
+        "container-title": [
+          "Journal of Business &amp; Economic Statistics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.tandfonline.com/doi/pdf/10.1080/07350015.2016.1227711",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2024-06-19T09:13:32Z",
+          "timestamp": 1718788412000
+        },
+        "score": 55.742558,
+        "resource": {
+          "primary": {
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/07350015.2016.1227711"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              1
+            ]
+          ]
+        },
+        "references-count": 33,
+        "journal-issue": {
+          "issue": "2",
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                4,
+                3
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "10.1080/07350015.2016.1227711"
+        ],
+        "URL": "https://doi.org/10.1080/07350015.2016.1227711",
+        "ISSN": [
+          "0735-0015",
+          "1537-2707"
+        ],
+        "issn-type": [
+          {
+            "value": "0735-0015",
+            "type": "print"
+          },
+          {
+            "value": "1537-2707",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              1
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+            "order": 1,
+            "name": "peerreview_statement",
+            "label": "Peer Review Statement"
+          },
+          {
+            "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ubes20",
+            "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=ubes20",
+            "order": 2,
+            "name": "aims_and_scope_url",
+            "label": "Aim & Scope"
+          },
+          {
+            "value": "2016-03-01",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2016-08-01",
+            "order": 1,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2017-06-01",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ]
+      },
+      {
+        "institution": [
+          {
+            "name": "National Bureau of Economic Research",
+            "acronym": [
+              "NBER"
+            ],
+            "place": [
+              "Cambridge, MA"
+            ]
+          }
+        ],
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              25
+            ]
+          ],
+          "date-time": "2024-08-25T00:40:05Z",
+          "timestamp": 1724546405133
+        },
+        "publisher-location": "Cambridge, MA",
+        "reference-count": 0,
+        "publisher": "National Bureau of Economic Research",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.3386/w15326",
+        "type": "report",
+        "created": {
+          "date-parts": [
+            [
+              2010,
+              11,
+              23
+            ]
+          ],
+          "date-time": "2010-11-23T20:03:30Z",
+          "timestamp": 1290542610000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 22,
+        "title": [
+          "Genetic Adverse Selection: Evidence from Long-Term Care Insurance and Huntington Disease"
+        ],
+        "prefix": "10.3386",
+        "author": [
+          {
+            "given": "Emily",
+            "family": "Oster",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Ira",
+            "family": "Shoulson",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Kimberly",
+            "family": "Quaid",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "E. Ray",
+            "family": "Dorsey",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "1960",
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              9
+            ]
+          ]
+        },
+        "deposited": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              24
+            ]
+          ],
+          "date-time": "2024-08-24T23:32:50Z",
+          "timestamp": 1724542370000
+        },
+        "score": 22.71373,
+        "resource": {
+          "primary": {
+            "URL": "http://www.nber.org/papers/w15326.pdf"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2009,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.3386/w15326",
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              10
+            ]
+          ],
+          "date-time": "2023-10-10T15:08:43Z",
+          "timestamp": 1696950523834
+        },
+        "reference-count": 0,
+        "publisher": "Duke University Press",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Music Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1961
+            ]
+          ]
+        },
+        "DOI": "10.2307/842870",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2006,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2006-05-05T19:02:36Z",
+          "timestamp": 1146855756000
+        },
+        "page": "54",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "Register and the Large-Scale Connection"
+        ],
+        "prefix": "10.1215",
+        "volume": "5",
+        "author": [
+          {
+            "given": "Ernst",
+            "family": "Oster",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "73",
+        "container-title": [
+          "Journal of Music Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2007,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2007-02-13T15:56:13Z",
+          "timestamp": 1171382173000
+        },
+        "score": 21.359423,
+        "resource": {
+          "primary": {
+            "URL": "http://links.jstor.org/sici?sici=0022-2909%28196121%295%3A1%3C54%3ARATLC%3E2.0.CO%3B2-2&origin=crossref"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1961
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                1961
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.2307/842870",
+        "ISSN": [
+          "0022-2909"
+        ],
+        "issn-type": [
+          {
+            "value": "0022-2909",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1961
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2025-11-01T21:29:41Z",
+          "timestamp": 1762032581986
+        },
+        "reference-count": 0,
+        "publisher": "Duke University Press",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Journal of Music Theory"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1960,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.2307/843052",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2006,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2006-05-05T23:01:20Z",
+          "timestamp": 1146870080000
+        },
+        "page": "85",
+        "source": "Crossref",
+        "is-referenced-by-count": 7,
+        "title": [
+          "Re: A New Concept of Tonality (?)"
+        ],
+        "prefix": "10.1215",
+        "volume": "4",
+        "author": [
+          {
+            "given": "Ernst",
+            "family": "Oster",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "73",
+        "container-title": [
+          "Journal of Music Theory"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2007,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2007-02-13T20:56:13Z",
+          "timestamp": 1171400173000
+        },
+        "score": 21.358974,
+        "resource": {
+          "primary": {
+            "URL": "http://links.jstor.org/sici?sici=0022-2909%28196004%294%3A1%3C85%3ARANCOT%3E2.0.CO%3B2-9&origin=crossref"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1960,
+              4
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-print": {
+            "date-parts": [
+              [
+                1960,
+                4
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.2307/843052",
+        "ISSN": [
+          "0022-2909"
+        ],
+        "issn-type": [
+          {
+            "value": "0022-2909",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1960,
+              4
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 5,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

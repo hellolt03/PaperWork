@@ -1,0 +1,42 @@
+name: Bug Report
+description: Something broke — script error, unexpected output, or crash
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For citation accuracy issues (correct citation flagged, or hallucination missed), use the **False Positive** or **False Negative** templates instead.
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: Describe what you expected and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The command you ran and the input you used.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: Paste the full terminal output including any error messages.
+      render: text
+  - type: input
+    id: os
+    attributes:
+      label: OS and shell
+      placeholder: "macOS 15.4, bash 3.2 / Ubuntu 24.04, bash 5.2"
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: Tool versions
+      description: "Output of: jq --version && curl --version | head -1"
+      placeholder: "jq-1.7.1, curl 8.7.1"

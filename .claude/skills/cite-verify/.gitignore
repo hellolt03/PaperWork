@@ -1,0 +1,20 @@
+# Local audit log (contains SHA-256 hashes of citations checked locally,
+# should not be committed to the public repo).
+logs/verifications.jsonl
+logs/*.jsonl
+
+# Cache directory (empty for now, but reserved for future caching).
+cache/*
+!cache/.gitkeep
+
+# macOS
+.DS_Store
+
+# Temp files
+*.swp
+*~
+.omc/
+docs/specs/
+docs/plans/
+vendor/
+!vendor/.integrity-manifest.sha256

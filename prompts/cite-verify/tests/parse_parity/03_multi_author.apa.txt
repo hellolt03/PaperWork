@@ -1,0 +1,1 @@
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L. (2017). Attention Is All You Need. Neural Information Processing. DOI 10.5555/3295222.3295349

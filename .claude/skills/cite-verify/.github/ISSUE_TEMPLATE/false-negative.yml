@@ -1,0 +1,43 @@
+name: False Negative
+description: cite-verify missed a hallucinated or incorrect citation
+labels: ["bug", "false-negative"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A false negative means a hallucinated citation slipped through as VERIFIED or PARTIAL_MATCH. This is the failure mode cite-verify exists to prevent.
+  - type: textarea
+    id: citation
+    attributes:
+      label: Citation text
+      description: The exact citation string you checked (anonymize if needed).
+      placeholder: "Author, A. (2024). Fabricated Title. Journal Name, 1(2), 3-4."
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict cite-verify gave
+      options:
+        - VERIFIED
+        - PARTIAL_MATCH
+    validations:
+      required: true
+  - type: textarea
+    id: why_wrong
+    attributes:
+      label: Why the citation is wrong
+      description: What is the actual paper at that identifier? Link to the real Crossref record if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Full cite-verify report output
+      description: Paste the Markdown report cite-verify produced.
+      render: markdown
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 15.4 / Ubuntu 24.04"

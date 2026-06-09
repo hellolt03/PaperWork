@@ -1,0 +1,34 @@
+title: "[Catch] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a hallucinated citation that cite-verify caught in your work. Anonymize freely — the value is in the pattern, not the specifics.
+
+        Every catch posted here helps others recognize the same failure mode.
+  - type: textarea
+    id: citation
+    attributes:
+      label: The hallucinated citation
+      description: What the LLM generated (anonymize author names or paper details if needed).
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What the real paper was
+      description: The canonical title/DOI that cite-verify found at the claimed identifier.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: How did the hallucination get into your document? Which LLM? What task were you doing?
+  - type: textarea
+    id: report
+    attributes:
+      label: cite-verify output (optional)
+      description: Paste the relevant section of the report if you have it.
+      render: markdown

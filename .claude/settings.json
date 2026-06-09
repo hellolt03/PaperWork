@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/vqv7l0 2>/dev/null; echo \"---\"; ls -la \"D:\\\\PaperWork\" 2>/dev/null; echo \"---windows check---\"; ls -la /d/PaperWork 2>/dev/null; echo \"done\")",
+      "Read(//Users/**)",
+      "Bash(rm -rf /d/PaperWork/.claude/skills/__TRACKED_VAR__)",
+      "Bash(cp -r /d/PaperWork/prompts/academic-research-skills/__TRACKED_VAR__ /d/PaperWork/.claude/skills/__TRACKED_VAR__)",
+      "Bash([ -f \"$dst/$d/SKILL.md\" ])"
+    ]
+  }
+}

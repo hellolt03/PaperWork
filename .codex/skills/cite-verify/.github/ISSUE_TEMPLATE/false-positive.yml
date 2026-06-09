@@ -1,0 +1,44 @@
+name: False Positive
+description: cite-verify flagged a correct citation as METADATA_MISMATCH or NOT_FOUND
+labels: ["bug", "false-positive"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A false positive means cite-verify said something was wrong with a citation that is actually correct. These get fixed first.
+  - type: textarea
+    id: citation
+    attributes:
+      label: Citation text
+      description: The exact citation string you checked (anonymize if needed).
+      placeholder: "Author, A. (2024). Title of the paper. Journal Name, 1(2), 3-4."
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict cite-verify gave
+      options:
+        - METADATA_MISMATCH
+        - NOT_FOUND
+        - NEEDS_MANUAL_VERIFICATION
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Why the citation is correct
+      description: Link to the actual paper, DOI, or other evidence that the citation is valid.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Full cite-verify report output
+      description: Paste the Markdown report cite-verify produced.
+      render: markdown
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 15.4 / Ubuntu 24.04"

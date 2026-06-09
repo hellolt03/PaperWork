@@ -1,0 +1,13 @@
+[
+  {
+    "entry_key": "nested",
+    "authors": [
+      "A. Author"
+    ],
+    "year": "2020",
+    "title": "A Title with Double Nested Braces",
+    "doi": null,
+    "venue": null,
+    "type": "article"
+  }
+]

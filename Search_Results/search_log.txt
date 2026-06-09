@@ -1,0 +1,113 @@
+﻿========================================
+PHASE 2: SYSTEMATIC LITERATURE SEARCH
+========================================
+Research Topic: Multi-Agent Collaboration for Root Cause Analysis and AIOps
+Time Range: 2023-2026 (Priority: 2024-2026)
+Search Execution Date: 2026-06-04
+
+【SEARCH GROUP 1】
+Keywords: (multi-agent OR agent collaboration) AND (root cause OR RCA OR diagnosis)
+Database: arXiv
+Status:  COMPLETED
+Results Found: 15+ papers
+Key Papers:
+1. Flow-of-Action (2025) - SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis
+2. Towards In-Depth Root Cause Localization for Microservices (2026) - Multi-Agent Recursion-of-Thought
+3. AgentTrace (2026) - Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems
+4. Stalled, Biased, and Confused (2026) - Uncovering Reasoning Failures in LLMs for Cloud-Based RCA
+5. QoEReasoner (2026) - Agentic Reasoning Framework for Automated QoE Diagnosis in RANs
+6. TraceSIR (2026) - Multi-Agent Framework for Structured Analysis and Reporting of Agentic Execution Traces
+7. HypoAgent (2026) - Interactive Abductive Hypothesis Generation over Knowledge Graphs
+8. BatteryAgent (2025) - Synergizing Physics-Informed Interpretation with LLM Reasoning
+
+【SEARCH GROUP 2】
+Keywords: (LLM agent OR large language model agent) AND (AIOps OR cloud operations OR system diagnosis)
+Database: arXiv
+Status:  COMPLETED
+Results Found: 20+ papers
+Key Papers:
+1. AIOpsLab (2025) - Holistic Framework to Evaluate AI Agents for Autonomous Clouds
+2. Building AI Agents for Autonomous Clouds (2024) - Challenges and Design Principles
+3. UModel (2026) - Agent-Ready Observability Data Modeling Method at Scale
+4. Cloud-OpsBench (2026)  - Reproducible Benchmark for Agentic Root Cause Analysis
+5. Hallucination Mitigation with Agentic AI (2026) - Nested Learning and Semantic Caching
+
+【SEARCH GROUP 3】
+Keywords: (agent orchestration OR agent coordination) AND (tool calling OR tool use)
+Database: arXiv
+Status:  COMPLETED
+Results Found: 22+ papers
+Key Papers:
+1. Good to Go: LOOP Skill Engine (2026) - 99% Success, 99% Token Reduction
+2. Shepherd (2026) - Runtime Substrate Empowering Meta-Agents
+3. Close the Loop (2025) - Synthesizing Infinite Tool-Use Data via Multi-Agent Role-Playing
+4. Repairing Tool Calls (2025) - Using Post-tool Execution Reflection and RAG
+5. SOP-Bench (2025) - Complex Industrial SOPs for Evaluating LLM Agents
+6. EigenData (2026) - Self-Evolving Multi-Agent Platform for Function-Calling Data Synthesis
+7. Pel (2025) - Programming Language for Orchestrating AI Agents
+
+【SEARCH GROUP 4】
+Keywords: (hallucination mitigation OR hallucination prevention) AND agent
+Database: arXiv
+Status:  COMPLETED
+Results Found: 28+ papers
+Key Papers:
+1. LLM Ghostbusters (2026) - Surgical Hallucination Suppression via Adaptive Unlearning
+2. CareGuardAI (2026) - Context-Aware Multi-Agent Guardrails for Clinical Safety
+3. PRISM (2026) - Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations
+4. SafeMCP (2026) - Proactive Power Regulation for LLM Agent Defense
+5. MemGraphRAG (2026) - Memory-based Multi-Agent System for Graph RAG
+6. BibTeX Citation Hallucinations (2026) - Evaluation and Mitigation
+7. 3D-VCD (2026) - Hallucination Mitigation in 3D-LLM Embodied Agents
+8. TraceSafe (2026) - Systematic Assessment of LLM Guardrails
+
+【SEARCH GROUP 5】
+Keywords: (knowledge graph OR temporal knowledge graph) AND (agent OR multi-agent)
+Database: arXiv
+Status:  COMPLETED
+Results Found: 27+ papers
+Key Papers:
+1. MAGE (2026) - Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs
+2. ChronoMedKG (2026) - Temporally-Grounded Biomedical Knowledge Graph
+3. Agentic GraphRAG (2026) - Navigating Unstructured Financial Data with Collaborative AI
+4. Time is Not a Label (2026) - Continuous Phase Rotation for Temporal Knowledge Graphs
+5. Knowledge Graphs, the Missing Link (2026) - Agentic AI-based Formal Verification
+6. GRAVITY (2026) - Architecture-Agnostic Structured Anchoring for Conversational Memory
+7. Memanto (2026) - Typed Semantic Memory with Information-Theoretic Retrieval
+8. WorldDB (2026) - Vector Graph-of-Worlds Memory Engine
+
+========================================
+TIER CLASSIFICATION CRITERIA (Applied)
+========================================
+Tier I (Top): CCF-A conference (NeurIPS/ICML/ICLR/ACL/EMNLP/SOSP/OSDI), peer-reviewed, 50+ citations OR published 2024+
+Tier II (High): CCF-B conference OR CCF-A preprint, 20-50 citations
+Tier III (Standard): arXiv preprint OR <20 citations
+Tier IV (Gray): Generic gray literature, unverified
+
+========================================
+VERIFICATION STATUS FOR USER-SPECIFIED PAPERS
+========================================
+
+【论文1】mABC 2024 (EMNLP): Multi-Agent Based Classification/Collaboration
+Status:  NOT FOUND - No results on arXiv or Semantic Scholar
+Search Results: 0 matches
+Verification: FAILED - Paper does not appear to exist or is unpublished
+Notes: Extensive searches with multiple query variations returned no results
+
+【论文2】ALICE 2025 (NeurIPS): Agent Learning and Coordination
+Status:  NOT FOUND - No results on arXiv or Semantic Scholar  
+Search Results: 0 matches
+Verification: FAILED - Paper does not appear to exist or may be proposed but not yet published
+Notes: No preprint or conference submission found
+
+【论文3】Cloud-OpsBench 2025: Cloud Operations Benchmark for AIOps
+Status:  FOUND & VERIFIED
+Title: Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems
+Authors: Yilun Wang, Guangba Yu, Haiyu Huang, Zirui Wang, Yujie Huang, Pengfei Chen, Michael R. Lyu
+Submission Date: 28 February, 2026 (Actually 2026, not 2025)
+Announced: March 2026
+arXiv ID: [Pending full fetch]
+DOI: [To be verified via Crossref]
+Status:  PREPRINT - Not yet formally published
+Tier: Tier I (CCF-relevant venue paper on arXiv, recent 2026)
+

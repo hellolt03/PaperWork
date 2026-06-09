@@ -1,0 +1,8 @@
+[
+  {
+    "entry_key": "lmr_hallucination",
+    "expected_verdict": "METADATA_MISMATCH",
+    "expected_doi": "10.3386/w33344",
+    "note": "DOI resolves to real paper 'Large Language Models: An Applied Econometric Framework' (Ludwig, Mullainathan, Rambachan 2025 NBER w33344); fabricated title must trigger METADATA_MISMATCH"
+  }
+]

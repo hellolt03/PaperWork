@@ -1,0 +1,259 @@
+% sample-2026-04-24.bib - synthetic public regression corpus for cite-verify v0.2.
+% 21 entries. All DOIs verified against Crossref at authoring time (2026-04-24).
+% Privacy: all entries are textbook-level public papers with no connection to
+% the repo owner's collaborators or private research domains.
+%
+% Edge-case coverage:
+%   APA a/b/c suffix  : chetty2018a, chetty2018b, chetty2014a  (year field has letter suffix)
+%   book-chapter      : card1999_handbook  (PARTIAL_MATCH + book_candidate advisory)
+%   substring match   : ramey2013          (short cite title vs long Crossref title; PARTIAL_MATCH + substring_match)
+%   edition           : angrist2009_mhe    (cited with edition note; expected VERIFIED after strip)
+%   NOT_FOUND         : wooldridge_notfound (textbook, not indexed by Crossref)
+%   VERIFIED baseline : acemoglu2001, angrist1991, card1994, imbens2009, angrist2010,
+%                       acemoglu2020, heckman2013, chetty2014b, chetty2016,
+%                       chetty2014geography, duflo2001, adh2013, deming2017, chetty2014denmark
+
+% --- APA a/b/c suffix entries (3) ---
+% year field contains letter suffix (e.g. 2018a) to exercise APA-suffix normalization.
+
+@article{chetty2018a,
+  author  = {Chetty, Raj and Hendren, Nathaniel},
+  title   = {The Impacts of Neighborhoods on Intergenerational Mobility I: Childhood Exposure Effects},
+  journal = {Quarterly Journal of Economics},
+  year    = {2018a},
+  volume  = {133},
+  number  = {3},
+  pages   = {1107--1162},
+  doi     = {10.1093/qje/qjy007}
+}
+
+@article{chetty2018b,
+  author  = {Chetty, Raj and Hendren, Nathaniel},
+  title   = {The Impacts of Neighborhoods on Intergenerational Mobility II: County-Level Estimates},
+  journal = {Quarterly Journal of Economics},
+  year    = {2018b},
+  volume  = {133},
+  number  = {3},
+  pages   = {1163--1228},
+  doi     = {10.1093/qje/qjy006}
+}
+
+@article{chetty2014a,
+  author  = {Chetty, Raj and Friedman, John N. and Rockoff, Jonah E.},
+  title   = {Measuring the Impacts of Teachers I: Evaluating Bias in Teacher Value-Added Estimates},
+  journal = {American Economic Review},
+  year    = {2014a},
+  volume  = {104},
+  number  = {9},
+  pages   = {2593--2632},
+  doi     = {10.1257/aer.104.9.2593}
+}
+
+% --- book-chapter advisory (1) ---
+% Crossref indexes this as type=book-chapter with container "Handbook of Labor Economics".
+% Expected: PARTIAL_MATCH + advisory.type=book_candidate if a sibling book record exists.
+
+@incollection{card1999_handbook,
+  author    = {Card, David},
+  title     = {The Causal Effect of Education on Earnings},
+  booktitle = {Handbook of Labor Economics},
+  year      = {1999},
+  volume    = {3},
+  publisher = {Elsevier},
+  doi       = {10.1016/s1573-4463(99)03011-4}
+}
+
+% --- substring-containment advisory (1) ---
+% BibTeX title is the short form commonly used in citations.
+% Crossref title: "Are Government Spending Multipliers Greater during Periods of Slack?
+%   Evidence from Twentieth-Century Historical Data"
+% Short cite gives F1~0.67 with containment=1.00 -> fires substring_match advisory.
+
+@article{ramey2013,
+  author  = {Ramey, Valerie A.},
+  title   = {Government Spending Multipliers Slack Historical Data},
+  journal = {American Economic Review},
+  year    = {2013},
+  volume  = {103},
+  number  = {3},
+  pages   = {129--134},
+  doi     = {10.1257/aer.103.3.129}
+}
+
+% --- edition normalization (1) ---
+% Cited with "2nd ed." suffix; Crossref title is "Mostly Harmless Econometrics" (no edition).
+% Edition strip in title_match.sh removes the "2nd ed." before scoring.
+% Expected: VERIFIED (conditional on edition-normalization).
+
+@book{angrist2009_mhe,
+  author    = {Angrist, Joshua D. and Pischke, Jorn-Steffen},
+  title     = {Mostly Harmless Econometrics: An Empiricist's Companion, 2nd ed.},
+  year      = {2009},
+  publisher = {Princeton University Press},
+  edition   = {2nd},
+  doi       = {10.1515/9781400829828}
+}
+
+% --- NOT_FOUND (1) ---
+% Wooldridge introductory econometrics textbook. Widely cited but not indexed by Crossref.
+% No DOI; title search returns no Crossref hit. Expected: NOT_FOUND.
+
+@book{wooldridge_notfound,
+  author    = {Wooldridge, Jeffrey M.},
+  title     = {Introductory Econometrics: A Modern Approach},
+  year      = {2019},
+  edition   = {7th},
+  publisher = {Cengage Learning}
+}
+
+% --- VERIFIED baseline (14 entries) ---
+
+@article{acemoglu2001,
+  author  = {Acemoglu, Daron and Johnson, Simon and Robinson, James A.},
+  title   = {The Colonial Origins of Comparative Development: An Empirical Investigation},
+  journal = {American Economic Review},
+  year    = {2001},
+  volume  = {91},
+  number  = {5},
+  pages   = {1369--1401},
+  doi     = {10.1257/aer.91.5.1369}
+}
+
+@techreport{angrist1991,
+  author      = {Angrist, Joshua D. and Krueger, Alan B.},
+  title       = {Does Compulsory School Attendance Affect Schooling and Earnings?},
+  institution = {National Bureau of Economic Research},
+  year        = {1990},
+  number      = {w3572},
+  doi         = {10.3386/w3572}
+}
+
+@techreport{card1994,
+  author      = {Card, David and Krueger, Alan B.},
+  title       = {Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania},
+  institution = {National Bureau of Economic Research},
+  year        = {1993},
+  number      = {w4509},
+  doi         = {10.3386/w4509}
+}
+
+@article{imbens2009,
+  author  = {Imbens, Guido W. and Wooldridge, Jeffrey M.},
+  title   = {Recent Developments in the Econometrics of Program Evaluation},
+  journal = {Journal of Economic Literature},
+  year    = {2009},
+  volume  = {47},
+  number  = {1},
+  pages   = {5--86},
+  doi     = {10.1257/jel.47.1.5}
+}
+
+@article{angrist2010,
+  author  = {Angrist, Joshua D. and Pischke, Jorn-Steffen},
+  title   = {The Credibility Revolution in Empirical Economics: How Better Research Design is Taking the Con out of Econometrics},
+  journal = {Journal of Economic Perspectives},
+  year    = {2010},
+  volume  = {24},
+  number  = {2},
+  pages   = {3--30},
+  doi     = {10.1257/jep.24.2.3}
+}
+
+@article{acemoglu2020,
+  author  = {Acemoglu, Daron and Restrepo, Pascual},
+  title   = {Robots and Jobs: Evidence from US Labor Markets},
+  journal = {Journal of Political Economy},
+  year    = {2020},
+  volume  = {128},
+  number  = {6},
+  pages   = {2188--2244},
+  doi     = {10.1086/705716}
+}
+
+@article{heckman2013,
+  author  = {Heckman, James J. and Moon, Seong Hyeok and Pinto, Rodrigo and Savelyev, Peter A. and Yavitz, Adam Q.},
+  title   = {Understanding the Mechanisms Through Which an Influential Early Childhood Program Boosted Adult Outcomes},
+  journal = {American Economic Review},
+  year    = {2013},
+  volume  = {103},
+  number  = {6},
+  pages   = {2052--2086},
+  doi     = {10.1257/aer.103.6.2052}
+}
+
+@article{chetty2014b,
+  author  = {Chetty, Raj and Friedman, John N. and Rockoff, Jonah E.},
+  title   = {Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood},
+  journal = {American Economic Review},
+  year    = {2014b},
+  volume  = {104},
+  number  = {9},
+  pages   = {2633--2679},
+  doi     = {10.1257/aer.104.9.2633}
+}
+
+@article{chetty2016,
+  author  = {Chetty, Raj and Hendren, Nathaniel and Katz, Lawrence F.},
+  title   = {The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment},
+  journal = {American Economic Review},
+  year    = {2016},
+  volume  = {106},
+  number  = {4},
+  pages   = {855--902},
+  doi     = {10.1257/aer.20150572}
+}
+
+@article{chetty2014geography,
+  author  = {Chetty, Raj and Hendren, Nathaniel and Kline, Patrick and Saez, Emmanuel},
+  title   = {Where is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States},
+  journal = {Quarterly Journal of Economics},
+  year    = {2014},
+  volume  = {129},
+  number  = {4},
+  pages   = {1553--1623},
+  doi     = {10.1093/qje/qju022}
+}
+
+@article{duflo2001,
+  author  = {Duflo, Esther},
+  title   = {Schooling and Labor Market Consequences of School Construction in Indonesia: Evidence from an Unusual Policy Experiment},
+  journal = {American Economic Review},
+  year    = {2001},
+  volume  = {91},
+  number  = {4},
+  pages   = {795--813},
+  doi     = {10.1257/aer.91.4.795}
+}
+
+@article{adh2013,
+  author  = {Autor, David H. and Dorn, David and Hanson, Gordon H.},
+  title   = {The China Syndrome: Local Labor Market Effects of Import Competition in the United States},
+  journal = {American Economic Review},
+  year    = {2013},
+  volume  = {103},
+  number  = {6},
+  pages   = {2121--2168},
+  doi     = {10.1257/aer.103.6.2121}
+}
+
+@article{deming2017,
+  author  = {Deming, David J.},
+  title   = {The Growing Importance of Social Skills in the Labor Market},
+  journal = {Quarterly Journal of Economics},
+  year    = {2017},
+  volume  = {132},
+  number  = {4},
+  pages   = {1593--1640},
+  doi     = {10.1093/qje/qjx022}
+}
+
+@article{chetty2014denmark,
+  author  = {Chetty, Raj and Friedman, John N. and Leth-Petersen, Soren and Nielsen, Torben Heien and Olsen, Tore},
+  title   = {Active vs. Passive Decisions and Crowd-Out in Retirement Savings Accounts: Evidence from Denmark},
+  journal = {Quarterly Journal of Economics},
+  year    = {2014},
+  volume  = {129},
+  number  = {3},
+  pages   = {1141--1219},
+  doi     = {10.1093/qje/qju013}
+}

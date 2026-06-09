@@ -1,0 +1,1 @@
+Vaswani, A. (2017). Attention Is All You Need: A Comprehensive Study of Self-Attention Mechanisms in Transformer Architectures for Natural Language Processing and Machine Translation Tasks. Advances in Neural Information Processing Systems. DOI 10.5555/long2017

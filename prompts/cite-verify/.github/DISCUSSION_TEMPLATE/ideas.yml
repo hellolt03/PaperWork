@@ -1,0 +1,26 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share an idea for cite-verify. Ideas that get traction here become issues; issues that get implemented become PRs.
+
+        Before posting, check the [README scope section](https://github.com/jonckr/cite-verify#scope-and-limits) — some things are deliberately out of scope for v0.x.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like cite-verify to do?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why it matters
+      description: What problem does this solve? What does your workflow look like today without it?
+  - type: textarea
+    id: prior_art
+    attributes:
+      label: Prior art (optional)
+      description: Links to other tools, papers, or approaches that do something similar.
